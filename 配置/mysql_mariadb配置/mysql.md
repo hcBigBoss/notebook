@@ -35,7 +35,7 @@ Reading table information for completion of table and column names
 You can turn off this feature to get a quicker startup with -A
 Database changed
 
-mysql>  grant all privileges on *.* to 'root'@'%' identified by '*Pa55Word*' with grant option;
+mysql>  grant all privileges on *.* to 'root'@'%' identified by '123456' with grant option;
 Query OK, 0 rows affected, 1 warning (0,00 sec)
 
 mysql> flush privileges;
