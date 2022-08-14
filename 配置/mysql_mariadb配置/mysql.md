@@ -3,17 +3,24 @@
 
 
 #授权
-mysql>CREATE USER 'root'@'%' IDENTIFIED BY 'root';
-mysql>GRANT ALL ON *.* TO 'root'@'%';
+
+###### mysql>CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+
+##### mysql>GRANT ALL ON *.* TO 'root'@'%';
+
 #刷新权限
-mysql> flush privileges;
+
+###### mysql> flush privileges;
 
 #修改root用户密码
-mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
-#刷新权限
-mysql> flush privileges;
 
-magician
+###### mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
+
+#刷新权限
+
+###### mysql> flush privileges;
+
+###### magician
 
 
 
@@ -21,7 +28,7 @@ magician
 
 //修改密码
 
-ALTER USER USER() IDENTIFIED BY 'Admin2022!'; 
+###### ALTER USER USER() IDENTIFIED BY 'Admin2022!'; 
 
 
 
