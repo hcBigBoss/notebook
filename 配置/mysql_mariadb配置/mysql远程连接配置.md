@@ -1,6 +1,6 @@
-##### Mysql
+### Mysql
 
-
+##### 方式一
 
 #授权
 
@@ -24,9 +24,35 @@
 
 
 
+##### 方式二
+
+##### 1.4.3.2 登录MySQL
+
+获取到root用户的临时密码之后，我们就可以登录mysql数据库，修改root的密码，为root设置一个新的密码。并且我们还需要开启root用户远程访问该数据库的权限，这样的话，我们就可以在windows上来访问这台MySQL数据库。
+
+执行如下指令： 
+
+```
+①. 登录mysql（复制日志中的临时密码登录）
+	mysql -uroot -p								
+
+②. 修改密码
+    set global validate_password_length=4;			设置密码长度最低位数
+    set global validate_password_policy=LOW;		设置密码安全等级低，便于密码可以修改成root
+    set password = password('root');				设置密码为root
+    
+③. 开启访问权限
+    grant all on *.* to 'root'@'%' identified by 'root';
+    flush privileges;
+```
 
 
-//修改密码
+
+
+
+
+
+//修改密码 8.0
 
 ###### ALTER USER USER() IDENTIFIED BY 'Admin2022!'; 
 
