@@ -4,6 +4,8 @@
 
 
 
+MySql  **aR0#nF2}**
+
 #### Github 图片解析地址
 
 ###### 修改hosts
