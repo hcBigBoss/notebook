@@ -6,6 +6,26 @@ https://github.com/openresty/lua-resty-core/issues/248
 
 https://blog.csdn.net/budongfengqing/article/details/117925430
 
+
+
+#### 环境变量的坑
+
+https://blog.csdn.net/weixin_39730587/article/details/111281943
+
+最后无奈，我将这两个变量直接写死在lua-nginx-module的config中，即：
+
+https://www.bbsmax.com/A/RnJWrm7Ezq/
+
+
+
+# OpenResty
+
+https://github.com/openresty
+
+下载release版本
+
+<img src="/Users/hcbigboss/Library/Application Support/typora-user-images/image-20220828173814680.png" alt="image-20220828173814680" style="zoom:50%;" />
+
 ```
 
  ./configure --prefix=/Users/hcbigboss/nginx \
