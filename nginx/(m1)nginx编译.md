@@ -26,7 +26,7 @@ https://github.com/openresty
 
 <img src="/Users/hcbigboss/Library/Application Support/typora-user-images/image-20220828173814680.png" alt="image-20220828173814680" style="zoom:50%;" />
 
-```
+```sh
 
  ./configure --prefix=/Users/hcbigboss/nginx \
 --sbin-path=/Users/hcbigboss/nginx/nginx/nginx \
@@ -44,6 +44,9 @@ https://github.com/openresty
 export LUAJIT_LIB=/usr/local/lib \
 export LUAJIT_INC=/usr/local/include/luajit-2.1
 
+
+
+// -------------推荐------------- OpenResty 
  ./configure \
  --with-pcre=/Users/hcbigboss/work/pcre-8.40 \
 --with-zlib=/Users/hcbigboss/work/zlib-1.2.12 \
